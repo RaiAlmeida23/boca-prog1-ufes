@@ -2,6 +2,21 @@
 
 Soluções dos exercícios de programação do BOCA - UFES
 
+## Conteúdo das listas
+
+As listas seguem a ordem abaixo, que acompanha o avanço da matéria de Programação 1.
+
+| Pasta | Exercícios | Tema |
+|-------|-----------|------|
+| `M/` | 3 | Monitoria: aquecimento com o formato de entrada e saída do BOCA |
+| `L1/` | 15 | Condicionais e operações básicas |
+| `L2/` | 23 | Laços, caracteres e matrizes |
+| `L3/` | 13 | Funções |
+| `L4/` | 7 | TADs com `struct` e múltiplos arquivos (.h/.c/main) |
+| `L5/` | 19 | Vetores, strings e matrizes |
+| `L6/` | 6 | Integração de L4 e L5: TADs com vetores |
+| `LDEP1/` | 7 | Depuração: consertar códigos quebrados |
+
 ## Estrutura das pastas
 
 Cada exercício segue a mesma organização, dentro da pasta correspondente (por exemplo, `L1/`):
@@ -45,5 +60,5 @@ Ou seja: para cada arquivo dentro de `input/`, existe um arquivo com o mesmo nom
    ```bash
    diff output saida
    ```
-   - Se não aparecer nada, a saída está correta 
+   - Se não aparecer nada, a saída está correta
    - Se aparecer alguma diferença, o programa ainda precisa de ajustes
